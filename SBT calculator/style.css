@@ -1,0 +1,90 @@
+.house{
+     text-align: center;
+     margin-top:23px ;
+}
+table{
+    margin:auto;
+}
+input{
+     
+    border-radius: 21px;
+    border: 5px ;
+    font-size:20px;
+    width: 260px;
+    height:35px;
+    background-color: black;
+    color:white;
+
+}
+button{
+      font-weight: bolder;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 6px;
+      border: none;
+      border-radius: 50%;
+      width: 50px; /* Set a fixed width to make it a perfect circle */
+      height: 50px; /* Set a fixed height to make it a perfect circle */
+      text-align: center;
+      line-height: 50px; /* Center text vertically within the circle */
+      background-color: grey; /* Set the background color for the circle */
+      color: white; /* Set the text color */
+      font-size: 16px; /* Adjust the text size */
+      text-decoration: none; /* Remove underline for anchor tags */
+      display: inline-block;
+}
+
+.screen{
+    display: inline-block;
+    border:2px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.orange{
+    background-color: orange;   
+    color: white;
+}
+
+.gray{
+    background: darkgray;
+    color: white;
+}
+
+.silver{
+    background: lightgray;
+}
+
+.length{
+    background: darkgray;
+    color: white;
+    border-radius: 45%;
+    width: 190%;
+    padding: 4px 15px;
+    text-align: center;
+    
+}
+
+table{
+    padding: 1em;
+}
+
+@media (min-width: 768px) {
+    table{
+      width: 70%;
+      margin: 0 auto;
+    }
+}
+
+button:hover{
+    background-color:thistle;
+}
+
+.c{
+    background-color: lightblue;
+}
+
+body{
+    background-color:cornsilk;
+    
+}

@@ -1,0 +1,286 @@
+body{
+   background-image: url("pexels-pnw-production-8251001.jpg"); 
+   background-size:cover;
+   background-color: transparent;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color:rgba(159, 214, 144, 0.774);
+    width: 13vw;
+    font-weight:900;
+    font-family:'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hello{
+   color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:35px;
+}
+
+.moreabout{
+    color: white;
+    font-family:cursive;
+    font-size:20px ;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:fantasy;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    color:rgba(159, 214, 144, 0.774);
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.buttons {
+    margin-top: 34px;
+
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: darkolivegreen;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.devPic {
+    width: 60vh;
+}
+
+.pic{
+    border-radius: 50%;
+    width: 65%;
+    height: 60%;
+    margin: 10%;
+}
+
+section{
+    max-width: 800px;
+    margin: 2em auto; 
+    padding: 0 1em;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
+}
+
+.btn:hover {
+    color: black;
+    background-color: burlywood;
+}
+.form-check-input:hover{
+    color:lightgreen;
+    background-color: blue;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    /* font-weight: bold; */
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+    color:rgb(68, 133, 171)
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+
+#emailHelp {
+    font-size: 11px;
+    color: lightgray;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.intro h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillitem{
+   display: flex;
+   align-items: center ;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+}
+.skill{
+    width: 215px;
+    height: 6px;
+    background-color: rgb(196, 67, 67);
+    border:2px solid rgba(0, 0, 0, 0.485);
+}
+
+.s1{
+    width: 275px;
+   margin: 10px 17px;
+    background-color: rgba(236, 48, 48, 0.76);
+}
+.s2{
+    width:275px;
+    margin: 10px 33px;
+    background-color: rgba(236, 48, 48, 0.76);;
+}
+.s3{
+    width: 75px;
+    margin: 10px 46px;
+    background-color: rgba(236, 48, 48, 0.76);;
+}
+.s4{
+    width: 245px;
+    margin: 10px 22px;
+    background-color: rgba(236, 48, 48, 0.76);;
+}
+.s5{
+    width: 175px;
+    margin: 10px 8px;
+    background-color: rgba(236, 48, 48, 0.76);;
+}
+footer{
+    text-align: center;
+    background-color:grey;
+    padding: 10px;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    background-color:rgb(81, 113, 169);   
+}
+.pro{
+    text-align: center;
+    align-items: center;
+}
+
+.mpro{
+    max-width: 800px;
+    margin: 2em auto; 
+    padding: 0 1em;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+.sidebar1 {
+    background-color:rgba(159, 214, 144, 0.774);
+    width: 13vw;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    height: 340vh;
+}
+
+.sidebar1 nav {
+    padding: 45px;
+}
+
+.sidebar1 nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar1 nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.l:hover{
+    color: white;
+    transform: scale(1,1); /*increasesize of hover*/
+    border-bottom: 1px solid #000; /*change to your desired underline color*/
+    font-size: 27px;
+}
